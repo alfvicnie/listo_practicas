@@ -14,3 +14,4 @@ git commit- `git diff`: lo que has cambiado y aún no has preparado
 - `git log --graph`: muestra el historial en forma de árbol
 >>>>>>> cambio-conflictivo
 - `git revert HEAD`: deshace el último commit con otro commit
+- `git fetch`: descarga lo nuevo sin tocar tus ficheros
