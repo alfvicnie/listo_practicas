@@ -1,4 +1,5 @@
 # Mi chuleta de git
+- `git pull`: trae lo nuevo de GitHub
 git status
 git add
 git commit- `git diff`: lo que has cambiado y aún no has preparado
