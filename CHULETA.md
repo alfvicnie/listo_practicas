@@ -13,3 +13,4 @@ git commit- `git diff`: lo que has cambiado y aún no has preparado
 =======
 - `git log --graph`: muestra el historial en forma de árbol
 >>>>>>> cambio-conflictivo
+- `git push --force`: la mejor forma de subir cambios
