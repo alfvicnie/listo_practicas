@@ -8,3 +8,4 @@ git commit- `git diff`: lo que has cambiado y aún no has preparado
 - `git restore`: deshace cambios en el directorio de trabajo
 - `git switch -c rama`: crea y cambia a una rama
 - `.gitignore`: archivo para indicar qué ficheros e ignorar
+- `git log --graph --oneline`: muestra el grafo de commits de forma compacta
