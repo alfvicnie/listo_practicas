@@ -14,6 +14,7 @@ def index():
         "tasks/index.html", tasks=tasks, pending=pending, done=len(tasks) - pending
     )
 
+
 @tasks_bp.route("/count")
 @login_required
 def count():
@@ -30,6 +31,7 @@ def count():
         return "Estado no válido: usa pending, done o all.", 400
 
     return f"{selected} de {len(tasks)}"
+
 
 @tasks_bp.route("/new", methods=["GET", "POST"])
 @login_required

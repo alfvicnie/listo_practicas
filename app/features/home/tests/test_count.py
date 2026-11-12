@@ -12,6 +12,7 @@ def test_count_pending_by_default(logged_client, user):
     services.toggle_task(services.create_task(user, "Otra"))
     assert logged_client.get("/tasks/count").get_data(as_text=True) == "1 de 2"
 
+
 def test_count_done_and_all(logged_client, user):
     services.create_task(user, "Una")
     services.toggle_task(services.create_task(user, "Otra"))

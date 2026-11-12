@@ -78,7 +78,7 @@ def register_error_handlers(app):
             ),
             405,
         )
-    
+
     @app.errorhandler(500)
     def internal_error(error):
         db.session.rollback()  # deshace cualquier transacción a medias
